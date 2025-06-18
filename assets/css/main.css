@@ -1668,3 +1668,14 @@ ul.icons li a:active {
   display: flex;
   justify-content: center; /* center horizontally */
 }
+
+#bg {
+	opacity: 0;
+	animation: fadeInBg 2s ease-in-out forwards;
+}
+
+@keyframes fadeInBg {
+	to {
+		opacity: 1;
+	}
+}
