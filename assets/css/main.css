@@ -1658,3 +1658,13 @@ ul.icons li a:active {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+.profile-photo {
+  width: 6rem; /* adjust size as needed */
+  height: 6rem;
+  border-radius: 50%; /* makes it circular */
+  object-fit: cover; /* ensures it fills the circle */
+  display: flex;
+  justify-content: center; /* center horizontally */
+}
