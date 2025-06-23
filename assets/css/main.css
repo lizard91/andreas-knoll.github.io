@@ -695,9 +695,16 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
-			margin: 2.5rem 0;
-			width: 100%;
+			width: 36rem;
+			height: 18rem;
+			overflow: hidden;
+			position: relative;
+		}
+
+		.image.main img {
+			position: absolute;
+			top: -50px;
+			left: 0;
 		}
 
 			.image.main img {
